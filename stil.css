@@ -1,0 +1,118 @@
+body{
+
+    margin: auto;
+    text-align: center;
+    background-color: #eeecec;
+    width: 100%;
+}
+
+.igraci{
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    margin-right:20px;
+    margin-left :20px;
+    margin-top: 0;
+}
+
+.glavni{
+    width: 50%;
+    background-color: #b3aeae98;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+#pokreni {
+    width: 100%;
+    background-color: #5da860;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#prvi{
+    background-color: rgb(77, 77, 243);
+}
+
+#drugi{
+    background-color:#ee5353;
+}
+
+#igra{
+    border: 0;
+    width:100%;
+    border-style: solid;
+    padding: 10px;
+    background: rgb(202, 230, 238);
+    border-radius: 15px;
+}
+
+.polja{
+    border: outset;
+    text-align: center;
+    background: rgb(203, 203, 233);
+    cursor: pointer;
+    width: 160px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 15px;
+    box-shadow: -10px 0px 5px grey;
+    font-size: 10pt;
+}
+
+#ekran{
+    display: flex;
+    width: 100%;
+    border:0;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.glavna_polja{
+    border: outset;
+    text-align: center;
+    background: rgb(122, 122, 175);
+    cursor: pointer;
+    width: 160px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 15px;
+    box-shadow: -10px 0px 5px grey;
+    font-size: 12pt;
+
+}
+
+.konacno_polje{
+    font-size: 16pt;
+    width: 280px;
+    border: inset;
+    background: rgb(130, 95, 196);
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 15px;
+    box-shadow: -10px 0px 5px grey;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.blue{
+    background-color: rgb(77, 77, 243);
+}
+
+.red{
+    background-color:#ee5353;
+}

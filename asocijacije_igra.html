@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igra</title>
+    <link rel="stylesheet" href="stil.css">
+    <script src="skripta.js"></script>
+</head>
+<body>
+    <h1>Igra asocijacija</h1>
+    <br>
+    <button id="novaIgra" onclick="kreniIgru()">Startuj Igru!</button>
+    <div id="ekran">
+    <div class="igraci" id="prvi">
+        <h1 id="imep">Prvi igrac</h1> 
+        <br>
+        Broj bodova:<span id="brojbodovaP">0</span>
+        <br>
+        Vreme: <span id="vremep">15</span>
+      </div>
+    <div class="glavni">
+        <table id="igra" >
+            <tr>
+                <td>
+                    <input type="button" value ="A1" id="a1" class="polja" name="a" onclick="otvoriPolje(this,id)">
+                </td>
+                <td>
+                    <input type="button" value ="B1" id="b1"class="polja" name="b" onclick="otvoriPolje(this,id)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value ="A2" id="a2"class="polja" name="a" onclick="otvoriPolje(this,id)">
+                </td>
+                <td>
+                    <input type="button" value ="B2" id="b2"class="polja" name="b" onclick="otvoriPolje(this,id)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value ="A3" id="a3"class="polja" name="a" onclick="otvoriPolje(this,id)">
+                </td>
+                <td>
+                    <input type="button" value ="B3" id="b3"class="polja"  name="b" onclick="otvoriPolje(this,id)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value ="A4" id="a4"class="polja" name="a" onclick="otvoriPolje(this,id)">
+                </td>
+                <td>
+                    <input type="button" value ="B4" id="b4"class="polja" name="b" onclick="otvoriPolje(this,id)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="A" id="a" class="glavna_polja" name="a" onclick="pogodiKolonu(this,id)">
+                </td>
+                <td>
+                    <input type="button" value="B" id="b" class="glavna_polja" name="b" onclick="pogodiKolonu(this,id)">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Resenje" id="konacno_polje" class="konacno_polje" onclick="pogodiKonacno(this,id)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="C" id="c" class="glavna_polja" name="c" onclick="pogodiKolonu(this,id)">
+                </td>
+                <td>
+                    <input type="button" value="D" id="d" class="glavna_polja" name="d" onclick="pogodiKolonu(this,id)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value ="C1" id="c1"class="polja" name="c" onclick="otvoriPolje(this,id)">
+                </td>
+                <td>
+                    <input type="button" value ="D1" id="d1"class="polja" name="d" onclick="otvoriPolje(this,id)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value ="C2" id="c2"class="polja" name="c" onclick="otvoriPolje(this,id)">
+                </td>
+                <td>
+                    <input type="button" value ="D2" id="d2"class="polja" name="d" onclick="otvoriPolje(this,id)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value ="C3" id="c3"class="polja" name="c" onclick="otvoriPolje(this,id)">
+                </td>
+                <td>
+                    <input type="button" value ="D3" id="d3"class="polja" name="d" onclick="otvoriPolje(this,id)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value ="C4" id="c4"class="polja" name="c" onclick="otvoriPolje(this,id)">
+                </td>
+                <td>
+                    <input type="button" value ="D4" id="d4"class="polja" name="d" onclick="otvoriPolje(this,id)">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Vreme:<div id="vreme">240
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <button id="pokreni" onclick="promeniPotez()">Dalje</button>
+    </div>
+    <div class="igraci" id="drugi">
+        <h1 id="imec">Drugi igrac</h1>  
+        <br>
+        Broj bodova:<span id="brojbodovaC">0</span>
+        <br>
+        Vreme: <span id="vremec">15</span>
+      </div>
+    </div>
+</body>
+</html>
